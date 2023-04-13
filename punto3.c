@@ -17,5 +17,7 @@ int main(){
     for (int i = 0; i < 5; i++)
     {
         printf("\nNombre[%i]: %s",i,  nombres[i]);
+        free(nombres[i]);
     }
+    
 }
